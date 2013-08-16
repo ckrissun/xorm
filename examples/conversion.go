@@ -5,7 +5,7 @@ import (
 	"fmt"
 	_ "github.com/mattn/go-sqlite3"
 	"os"
-	. "xorm"
+	. "github.com/lunny/xorm"
 )
 
 type Status struct {

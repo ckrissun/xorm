@@ -1,14 +1,13 @@
 package main
 
 import (
-	//xorm "github.com/lunny/xorm"
+	xorm "github.com/lunny/xorm"
 	"fmt"
 	_ "github.com/go-sql-driver/mysql"
 	_ "github.com/mattn/go-sqlite3"
 	"os"
 	//"time"
 	//"sync/atomic"
-	xorm "xorm"
 )
 
 type User struct {
